@@ -9,3 +9,7 @@ A Taiko-inspired game implemented on an Arduino Uno-R3
 
 ## Schematic
 ![arduino_taiko_schematic.png](resources/arduino_taiko_schematic.png)
+
+## Playing a different song
+If you want to input a custom song, use [MrReadBeard's XML to Arduino Parser](https://github.com/MrRedBeard/DotNet-MXL-Parsing-for-Arduino?tab=readme-ov-file), then replace one of the melody and duration arrays with the contents of the output.
+> Because of the limited amount of RAM on an Arduino Uno, the song might need to be cut down in duration and melody.
